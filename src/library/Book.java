@@ -10,5 +10,4 @@ public record Book(String id, String title) {
             throw new IllegalArgumentException("Book ID and title must not be blank");
         }
     }
-    //test
 }
